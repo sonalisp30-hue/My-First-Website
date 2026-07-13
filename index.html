@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My First Website</title>
-<link rel="stylesheet" href="style.css">
+<title>HAPPY BIRTHDAY!</title>
+<link rel="stylesheet"
+href="style.css">
 </head>
 
 <body>
+<h1>🎉🎉 HAPPY BIRTHDAY! 🎉🎉</h1>
+<p>🎁 Have a wonderful day!! 🎁</p>
+<button onclick="showMessage()">Click Me</button>
 
-<h1>Hello!</hl>
-
-<p>This is my first website.</p>
-
-<button>Click Me</button>
-
+<p id="message"></p>
+<script>
+    function showMessage(){
+        document.getElementById("message").innerHTML =
+        "❤️HAPPIEST BIRTHDAY❤️ Wishing you a year full of happiness, success and good health!🎉";
+    }
+</script>
 </body>
 </html>
